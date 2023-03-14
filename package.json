@@ -15,8 +15,8 @@
     "build": "siroc build",
     "dev": "nuxt-ts test/fixture",
     "lint": "eslint --ext .js,.vue,.ts .",
-    "release": "yarn test && yarn build && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "release": "npm run test && npm run build && standard-version && git push --follow-tags && npm publish",
+    "test": "npm run lint && jest"
   },
   "dependencies": {
     "clone-deep": "^4.0.1",
