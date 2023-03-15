@@ -1,14 +1,14 @@
 {
-  "name": "nuxt-pwa-bridge",
-  "version": "4.0.0",
+  "name": "pwa-nuxt-bridge",
+  "version": "3.0.0",
   "description": "Zero config PWA solution for Nuxt.js - Bridge",
-  "homepage": "https://github.com/somethingnew71/nuxt-pwa-bridge#readme",
+  "homepage": "https://github.com/somethingnew71/pwa-nuxt-bridge#readme",
   "bugs": {
-    "url": "https://github.com/somethingnew71/nuxt-pwa-bridge/issues"
+    "url": "https://github.com/somethingnew71/pwa-nuxt-bridge/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/somethingnew71/nuxt-pwa-bridge.git"
+    "url": "git+https://github.com/somethingnew71/pwa-nuxt-bridge.git"
   },
   "license": "MIT",
   "author": "Cole Gentry",
