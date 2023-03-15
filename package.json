@@ -1,6 +1,7 @@
 {
   "name": "pwa-nuxt-bridge",
-  "version": "3.0.0",
+  "version": "4.0.0",
+  "description": "Zero config PWA solution for Nuxt.js - Bridge",
   "keywords": [
     "nuxt",
     "nuxt-bridge",
@@ -8,7 +9,6 @@
     "pwa-module",
     "vue"
   ],
-  "description": "Zero config PWA solution for Nuxt.js - Bridge",
   "homepage": "https://github.com/somethingnew71/pwa-nuxt-bridge#readme",
   "bugs": {
     "url": "https://github.com/somethingnew71/pwa-nuxt-bridge/issues"
