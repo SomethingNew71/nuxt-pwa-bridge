@@ -28,8 +28,3 @@ Copyright (c) - Nuxt Community
 [npm-downloads-src]: https://img.shields.io/npm/dm/@nuxtjs/pwa.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/pwa-nuxt-bridge
 
-[checks-src]: https://flat.badgen.net/github/checks/somethingnew71/pwa-nuxt-bridge/dev
-[checks-href]: https://github.com/somethingnew71/pwa-nuxt-bridge/actions
-
-[codecov-src]: https://img.shields.io/codecov/c/github/somethingnew71/pwa-nuxt-bridge.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/somethingnew71/pwa-nuxt-bridge
