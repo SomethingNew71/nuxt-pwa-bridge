@@ -23,13 +23,13 @@ Copyright (c) - Nuxt Community
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/pwa/latest.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/pwa
+[npm-version-href]: https://npmjs.com/package/pwa-nuxt-bridge
 
 [npm-downloads-src]: https://img.shields.io/npm/dm/@nuxtjs/pwa.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/pwa
+[npm-downloads-href]: https://npmjs.com/package/pwa-nuxt-bridge
 
-[checks-src]: https://flat.badgen.net/github/checks/nuxt-community/pwa-module/dev
-[checks-href]: https://github.com/nuxt-community/pwa-module/actions
+[checks-src]: https://flat.badgen.net/github/checks/somethingnew71/pwa-nuxt-bridge/dev
+[checks-href]: https://github.com/somethingnew71/pwa-nuxt-bridge/actions
 
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/pwa-module.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/nuxt-community/pwa-module
+[codecov-src]: https://img.shields.io/codecov/c/github/somethingnew71/pwa-nuxt-bridge.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/somethingnew71/pwa-nuxt-bridge
