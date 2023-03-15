@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`pwa generate files (dist) 1`] = `
-Array [
+[
   "fixture/dist/.gitkeep",
   "fixture/dist/.nojekyll",
   "fixture/dist/200.html",
@@ -46,63 +46,63 @@ Array [
 
 exports[`pwa manifest.json 1`] = `
 "{
-  \\"name\\": \\"Test Project Name\\",
-  \\"short_name\\": \\"@nuxtjs/pwa\\",
-  \\"description\\": \\"Test Project Description\\",
-  \\"icons\\": [
+  "name": "Test Project Name",
+  "short_name": "nuxt-pwa-bridge",
+  "description": "Test Project Description",
+  "icons": [
     {
-      \\"src\\": \\"/_nuxt/icons/icon_64x64.b8f3a1.png\\",
-      \\"sizes\\": \\"64x64\\",
-      \\"type\\": \\"image/png\\",
-      \\"purpose\\": \\"any maskable\\"
+      "src": "/_nuxt/icons/icon_64x64.b8f3a1.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      \\"src\\": \\"/_nuxt/icons/icon_120x120.b8f3a1.png\\",
-      \\"sizes\\": \\"120x120\\",
-      \\"type\\": \\"image/png\\",
-      \\"purpose\\": \\"any maskable\\"
+      "src": "/_nuxt/icons/icon_120x120.b8f3a1.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      \\"src\\": \\"/_nuxt/icons/icon_144x144.b8f3a1.png\\",
-      \\"sizes\\": \\"144x144\\",
-      \\"type\\": \\"image/png\\",
-      \\"purpose\\": \\"any maskable\\"
+      "src": "/_nuxt/icons/icon_144x144.b8f3a1.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      \\"src\\": \\"/_nuxt/icons/icon_152x152.b8f3a1.png\\",
-      \\"sizes\\": \\"152x152\\",
-      \\"type\\": \\"image/png\\",
-      \\"purpose\\": \\"any maskable\\"
+      "src": "/_nuxt/icons/icon_152x152.b8f3a1.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      \\"src\\": \\"/_nuxt/icons/icon_192x192.b8f3a1.png\\",
-      \\"sizes\\": \\"192x192\\",
-      \\"type\\": \\"image/png\\",
-      \\"purpose\\": \\"any maskable\\"
+      "src": "/_nuxt/icons/icon_192x192.b8f3a1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      \\"src\\": \\"/_nuxt/icons/icon_384x384.b8f3a1.png\\",
-      \\"sizes\\": \\"384x384\\",
-      \\"type\\": \\"image/png\\",
-      \\"purpose\\": \\"any maskable\\"
+      "src": "/_nuxt/icons/icon_384x384.b8f3a1.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      \\"src\\": \\"/_nuxt/icons/icon_512x512.b8f3a1.png\\",
-      \\"sizes\\": \\"512x512\\",
-      \\"type\\": \\"image/png\\",
-      \\"purpose\\": \\"any maskable\\"
+      "src": "/_nuxt/icons/icon_512x512.b8f3a1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  \\"start_url\\": \\"/?standalone=true\\",
-  \\"display\\": \\"standalone\\",
-  \\"background_color\\": \\"#ffffff\\",
-  \\"lang\\": \\"en\\",
-  \\"orientation\\": \\"portrait\\"
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "en",
+  "orientation": "portrait"
 }"
 `;
 
 exports[`pwa sw.js 1`] = `
-"const options = {\\"workboxURL\\":\\"https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js\\",\\"importScripts\\":[\\"custom-sw.js\\"],\\"config\\":{\\"debug\\":true},\\"cacheNames\\":{\\"prefix\\":\\"test\\",\\"googleAnalytics\\":\\"test-ga\\"},\\"cacheOptions\\":{\\"revision\\":\\"test-rev\\",\\"cacheId\\":\\"@nuxtjs/pwa-prod\\"},\\"clientsClaim\\":true,\\"skipWaiting\\":true,\\"cleanupOutdatedCaches\\":true,\\"offlineAnalytics\\":true,\\"preCaching\\":[{\\"revision\\":\\"test-rev\\",\\"url\\":\\"/?standalone=true\\"},{\\"revision\\":\\"test-rev\\",\\"url\\":\\"precache.js\\"}],\\"runtimeCaching\\":[{\\"urlPattern\\":\\"https://google.com/.*\\",\\"handler\\":\\"CacheFirst\\",\\"method\\":\\"GET\\",\\"strategyPlugins\\":[]},{\\"urlPattern\\":\\"https://pwa.nuxtjs.org/.*\\",\\"handler\\":\\"CacheFirst\\",\\"method\\":\\"GET\\",\\"strategyOptions\\":{\\"cacheName\\":\\"nuxt-pwa\\"},\\"strategyPlugins\\":[{\\"use\\":\\"expiration.ExpirationPlugin\\",\\"config\\":[{\\"maxEntries\\":10,\\"maxAgeSeconds\\":300}]}]},{\\"urlPattern\\":\\"/_nuxt/\\",\\"handler\\":\\"CacheFirst\\",\\"method\\":\\"GET\\",\\"strategyPlugins\\":[]},{\\"urlPattern\\":\\"/\\",\\"handler\\":\\"NetworkFirst\\",\\"method\\":\\"GET\\",\\"strategyPlugins\\":[]}],\\"offlinePage\\":null,\\"pagesURLPattern\\":\\"/\\",\\"offlineStrategy\\":\\"NetworkFirst\\"}
+"const options = {"workboxURL":"https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js","importScripts":["custom-sw.js"],"config":{"debug":true},"cacheNames":{"prefix":"test","googleAnalytics":"test-ga"},"cacheOptions":{"revision":"test-rev","cacheId":"nuxt-pwa-bridge-prod"},"clientsClaim":true,"skipWaiting":true,"cleanupOutdatedCaches":true,"offlineAnalytics":true,"preCaching":[{"revision":"test-rev","url":"/?standalone=true"},{"revision":"test-rev","url":"precache.js"}],"runtimeCaching":[{"urlPattern":"https://google.com/.*","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"https://pwa.nuxtjs.org/.*","handler":"CacheFirst","method":"GET","strategyOptions":{"cacheName":"nuxt-pwa"},"strategyPlugins":[{"use":"expiration.ExpirationPlugin","config":[{"maxEntries":10,"maxAgeSeconds":300}]}]},{"urlPattern":"/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]}],"offlinePage":null,"pagesURLPattern":"/","offlineStrategy":"NetworkFirst"}
 
 importScripts(...[options.workboxURL, ...options.importScripts])
 

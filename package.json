@@ -1,11 +1,24 @@
 {
-  "name": "@nuxtjs/pwa",
-  "version": "3.3.5",
-  "description": "Zero config PWA solution for Nuxt.js",
-  "repository": "nuxt-community/pwa-module",
+  "name": "nuxt-pwa-bridge",
+  "version": "3.0.0",
+  "description": "Zero config PWA solution for Nuxt.js - Bridge",
+  "homepage": "https://github.com/somethingnew71/nuxt-pwa-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/somethingnew71/nuxt-pwa-bridge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somethingnew71/nuxt-pwa-bridge.git"
+  },
   "license": "MIT",
+  "author": "Cole Gentry",
   "main": "dist/pwa.js",
   "types": "./dist/pwa.d.ts",
+  "directories": {
+    "lib": "lib",
+    "doc": "docs",
+    "test": "test"
+  },
   "files": [
     "lib",
     "dist",
@@ -13,10 +26,10 @@
   ],
   "scripts": {
     "build": "siroc build",
-    "dev": "nuxt-ts test/fixture",
+    "dev": "nuxt test/fixture",
     "lint": "eslint --ext .js,.vue,.ts .",
-    "release": "yarn test && yarn build && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "release": "npm run test && npm run build && standard-version && git push --follow-tags && npm publish --access public",
+    "test": "npm run lint && jest"
   },
   "dependencies": {
     "clone-deep": "^4.0.1",
@@ -28,6 +41,7 @@
     "jimp-compact": "^0.16.1",
     "lodash.template": "^4.5.0",
     "serve-static": "^1.14.1",
+    "webpack": "^4.46.0",
     "workbox-cdn": "^5.1.4"
   },
   "devDependencies": {
@@ -40,14 +54,16 @@
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@nuxtjs/module-test-utils": "latest",
     "@types/workbox-sw": "^4.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
     "babel-eslint": "latest",
     "codecov": "latest",
     "eslint": "latest",
+    "eslint-plugin-jest": "^27.2.1",
     "jest": "latest",
     "klaw-sync": "latest",
     "node-fetch": "latest",
     "nuxt-edge": "latest",
-    "siroc": "^0.6.3",
+    "siroc": "^0.16.0",
     "standard-version": "latest",
     "typescript": "^4.1.3"
   }

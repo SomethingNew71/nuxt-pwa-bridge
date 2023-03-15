@@ -1,5 +1,9 @@
 {
   "extends": [
     "@nuxtjs/eslint-config-typescript"
-  ]
+  ],
+  "plugins": ["jest"],
+  "rules": {
+    "vue/multi-word-component-names": 0
+  }
 }
