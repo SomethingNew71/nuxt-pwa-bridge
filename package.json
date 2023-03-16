@@ -1,6 +1,6 @@
 {
   "name": "pwa-nuxt-bridge",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Zero config PWA solution for Nuxt.js - Bridge",
   "keywords": [
     "nuxt",
