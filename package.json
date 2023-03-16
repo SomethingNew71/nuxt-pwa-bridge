@@ -1,6 +1,6 @@
 {
   "name": "pwa-nuxt-bridge",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Zero config PWA solution for Nuxt.js - Bridge",
   "keywords": [
     "nuxt",
@@ -35,7 +35,8 @@
     "build": "siroc build",
     "dev": "nuxt test/fixture",
     "lint": "eslint --ext .js,.vue,.ts .",
-    "release": "npm run test && npm run build && standard-version && git push --follow-tags && npm publish --access public",
+    "release-major": "npm run test && npm run build && standard-version && git push --follow-tags && npm publish --access public",
+    "release-minor": "npm run test && npm run build && standard-version -- --release-as minor && git push --follow-tags && npm publish --access public",
     "test": "npm run lint && jest"
   },
   "dependencies": {
